@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav section */
+#navbar{
+    display: flex;
+    top: 0;
+    align-items: center;
+    height: 100%;
+    margin: 25px;
+    background-color: rgb(42, 32, 20);
+}
+#navbar::before{
+    /* content: ""; */
+    background-color: rgb(42, 32, 20);
+}
+#navbar h1{
+    font-size: 3rem;
+    align-items: center;
+    color: burlywood;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+#navbar ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 65px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 75px;
+    /* padding: 15px; */
+}
+
+/* introduction section */
+
+#introduction::before{
+    background: url(Screenshot\ 2023-11-06\ 121752.png) center no-repeat ;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 142%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+}
+#introduction .intro-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 35px; */
+    /* padding-left: 350px; */
+    /* border: 4px solid black; */
+}
+.intro{
+    font-size: 1.5rem;
+    color: rgb(33, 17, 56);
+    padding-left: 35px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+/* potential section */
+#potential{
+    margin-top: 30px;
+}
+#potential::before{
+    content: "";
+    background: url(panels.jpg) center no-repeat;
+    position: absolute;
+    height: 170%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+}
+.lines{
+    font-size: 1.5rem;
+    color: rgb(33, 17, 56);
+    padding-left: 35px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+#image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 500px; */
+}
+
+/* thermal section */
+#thermal-energy::before{
+    content: "";
+    background: url(thermal.jpg) center no-repeat;
+    position: absolute;
+    height: 143%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+}
+
+/* electricity section */
+#electricity::before{
+    content: "";
+    background: url(elec2.jpg) center no-repeat;
+    position: absolute;
+    /* top: 3350px; */
+    height: 185%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+}
+
+/* fuel section */
+#fuel::before{
+content: "" ;
+background: url(fuel.jpg) center no-repeat;
+position: absolute;
+/* top: 3350px; */
+height: 135%;
+width: 100%;
+z-index: -1;
+opacity: 0.85;
+}
+
+/* deve section */
+#development::before{
+    content: "" ;
+    background: url(deve.jpg) center no-repeat;
+    position: absolute;
+    /* top: 3350px; */
+    height: 155%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+    }
+
+/* utility classes */
+.h-secondary{
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+    color: rgb(213, 99, 28);
+    text-shadow: 3px 4px 4px green;
+}
